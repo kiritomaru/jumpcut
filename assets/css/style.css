@@ -60,6 +60,9 @@ body{
     background-color: #0c131b;
     font-family: 'Nunito Sans',sans-serif;
     font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
 }
 body img{
     max-width: 100%;
@@ -68,16 +71,7 @@ body img{
     clear: both;
 }
 .col-md{
-    width: 50%;
     float: left;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-
 }
 .white{
     color: #fff;
@@ -87,6 +81,18 @@ h6{
 }
 .light-gray{
     color: #c4cbd2;
+}
+.toupper{
+    text-transform: uppercase
+}
+.tocapitalize{
+    text-transform: capitalize;
+}
+.italic{
+    font-style: italic;
+}
+.text-center{
+    text-align: center;
 }
 
 /* Containers */
@@ -105,4 +111,72 @@ header .wrap img{
 
 
 /* Video Series */
-#video-series
+#video-series .wrap{
+    padding-bottom: 120px;
+    border-bottom: 1px solid #2f363e;
+    margin-bottom: 80px;
+}
+#video-series .wrap .col-md{
+    width: 50%;
+}
+#video-series .free{
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    margin-bottom: 55px;
+}
+#video-series h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#video-series h2{
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+#video-series img{
+    margin-top: 10px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,1);
+}
+#video-series .col-md:first-child{
+    padding-right: 35px;
+}
+
+/* Results */
+#results h2{
+    padding-bottom: 70px;
+    font-size: 40px;
+}
+#results .wrap .col-md{
+    width: calc(30%);
+    margin-right: 4%;
+    border: 1px solid #2f363e;
+    min-height: 473px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#results .wrap .students .col-md:last-child{
+    margin-right: 0;
+    border: 10px solid #fff;
+}
+#results .wrap .col-md img{
+    margin: 0 auto 35px;
+}
+#results .wrap .col-md h3{
+    margin-bottom: 15px;
+}
+#results .wrap .col-md h4{
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#results .wrap .col-md .details{
+    text-align: left;
+    line-height: 1.5;
+}
+#results .wrap .col-md .details p strong{
+    font-weight: 700;
+}
