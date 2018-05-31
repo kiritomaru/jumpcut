@@ -68,8 +68,8 @@
     <div class="close"><img src="assets/img/closemodal.png" alt=""></div>
     <h2>Enter your info below to get free instant access...</h2>
     <form action="">
-        <input type="text" placeholder="My First Name Is...">
-        <input type="email" placeholder="My Email Is...">
+        <input type="text" placeholder="My First Name Is..." required>
+        <input type="email" placeholder="My Email Is..." required>
         <input type="submit" value="give me the first video" class='toupper' id="signupbutton">
     </form>
     <p class='info'>We'll keep your information private.</p>
