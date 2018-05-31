@@ -23,12 +23,3 @@ function closeDiv(event){
     popup.style.zIndex = 0; 
     body.style.overflow = "auto";
 }
-
-
-
-// document.addEventListener('click', function(event){
-//     if (event.target.closest(".popup")) return;
-//     popup.style.transform = "translate(-50%, -50%)";
-//     setTimeout(popup.style.opacity = 0, 2000);
-// });
-
